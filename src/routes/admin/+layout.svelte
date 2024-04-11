@@ -1,20 +1,15 @@
 <script lang="ts">
-	import * as icons from 'lucide-svelte';
 	import File from 'lucide-svelte/icons/file';
 	import Home from 'lucide-svelte/icons/home';
 	import LineChart from 'lucide-svelte/icons/line-chart';
 	import ListFilter from 'lucide-svelte/icons/list-filter';
-	import Ellipsis from 'lucide-svelte/icons/ellipsis';
 	import Package from 'lucide-svelte/icons/package';
-	import Package2 from 'lucide-svelte/icons/package-2';
 	import PanelLeft from 'lucide-svelte/icons/panel-left';
 	import CirclePlus from 'lucide-svelte/icons/circle-plus';
 	import Search from 'lucide-svelte/icons/search';
 	import Settings from 'lucide-svelte/icons/settings';
-	import ShoppingCart from 'lucide-svelte/icons/shopping-cart';
 	import UsersRound from 'lucide-svelte/icons/users-round';
 
-	import { Badge } from '$lib/components/ui/badge/index';
 	import * as Breadcrumb from '$lib/components/ui/breadcrumb/index';
 	import { Button } from '$lib/components/ui/button/index';
 	import * as Card from '$lib/components/ui/card/index';
@@ -24,6 +19,7 @@
 	import * as Table from '$lib/components/ui/table/index';
 	import * as Tabs from '$lib/components/ui/tabs/index';
 	import * as Tooltip from '$lib/components/ui/tooltip/index';
+
 	import TableRow from '$lib/components/TableRow.svelte';
 </script>
 
